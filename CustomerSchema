@@ -1,1 +1,58 @@
 
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/customer.schema.json",
+  "title": "Customer",
+  "description": "A customer in our system for our auctionhouse. Can be a seller, buyer or a bidder",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a customer",
+      "type": "int"
+    },
+    "firstName": {
+      "description": "The first name of a customer",
+      "type": "string"
+    },
+    "lastName": {
+      "description": "The last name of a customer",
+      "type": "string"
+    },
+     "gender": {
+      "description": "The gender of a customer",
+      "type": "string"
+    },
+    "birthdate": {
+      "description": "The birthdate of a customer",
+      "type": "datetime"
+    },
+    "address": {
+      "description": "Physical address of a customer",
+      "type": "string"
+    },
+    "postalcode": {
+      "description": "Physical postalcode of a customer",
+      "type": "string"
+    },
+     "city": {
+      "description": "Physical city of a customer",
+      "type": "string"
+    },
+    "country": {
+      "description": "Physical country of a customer",
+      "type": "string"
+    },
+    "telephone": {
+      "description": "Telephone number of a customer",
+      "type": "string"
+    },
+    "email": {
+      "description": "Email address of a customer.",
+      "type": "string"
+    },
+    "accesscode": {
+      "description": "Secret login password for a customer.",
+      "type": "string"
+    }
+  }
+}
