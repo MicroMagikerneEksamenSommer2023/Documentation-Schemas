@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/valuation.schema.json",
+  "title": "Valuation",
+  "description": "A customer in our system for our auctionhouse. Can be a seller, buyer or a bidder",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a valuation",
+      "type": "integer"
+    },
+    "customerid": {
+      "description": "The unique identifier for a customer",
+      "type": "string"
+    },
+    "title": {
+      "description": "The title of a valuation",
+      "type": "string"
+    },
+     "description": {
+      "description": "The description of a valuation",
+      "type": "string"
+    },
+    "imagepath": {
+      "description": "The path for the images of a valuation",
+      "type": "string"
+    }
+  }
+}
