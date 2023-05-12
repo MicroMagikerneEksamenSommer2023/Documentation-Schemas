@@ -8,7 +8,7 @@
   "properties": {
     "id": {
       "description": "The unique identifier for a customer",
-      "type": "int"
+      "type": "integer"
     },
     "firstName": {
       "description": "The first name of a customer",
@@ -24,7 +24,7 @@
     },
     "birthdate": {
       "description": "The birthdate of a customer",
-      "type": "datetime"
+      "type": "integer"
     },
     "address": {
       "description": "Physical address of a customer",
