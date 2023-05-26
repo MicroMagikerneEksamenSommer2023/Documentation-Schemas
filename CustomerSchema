@@ -24,7 +24,7 @@
     },
     "birthdate": {
       "description": "The birthdate of a customer",
-      "type": "integer"
+      "type": "datetime"
     },
     "address": {
       "description": "Physical address of a customer",
