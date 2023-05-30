@@ -1,1 +1,17 @@
-
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/auth.schema.json",
+  "title": "Auth",
+  "description": "A service which is used to authorize logininformation",
+  "type": "object",
+  "properties": {
+    "email": {
+      "description": "Email address of a customer.",
+      "type": "string"
+    },
+    "accesscode": {
+      "description": "Secret login password for a customer.",
+      "type": "string"
+    }
+  }
+}
