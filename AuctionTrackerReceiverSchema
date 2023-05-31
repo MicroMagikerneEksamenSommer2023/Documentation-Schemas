@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/auctionbid.schema.json",
+  "title": "AuctionTrackerWorker",
+  "description": "A bid.",
+  "type": "object",
+  "properties": {
+    "catalogid": {
+      "description": "The unique identifier for an item in the catalog",
+      "type": "string"
+    },
+    "buyeremail": {
+      "description": "Email address of a potential buyer.",
+      "type": "string"
+    },
+     "bidvalue": {
+      "description": "The value of a bid.",
+      "type": "double"
+    }
+  }
+}
