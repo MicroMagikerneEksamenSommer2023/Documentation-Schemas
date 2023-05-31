@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.com/auctionbid.schema.json",
-  "title": "AuctionTrackerWorker",
+  "title": "AuctionTrackerReceiver",
   "description": "A bid.",
   "type": "object",
   "properties": {
