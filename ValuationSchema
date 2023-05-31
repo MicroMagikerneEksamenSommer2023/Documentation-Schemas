@@ -9,20 +9,24 @@
       "description": "The unique identifier for a valuation",
       "type": "integer"
     },
-    "customerid": {
-      "description": "The unique identifier for a customer",
-      "type": "string"
-    },
     "title": {
       "description": "The title of a valuation",
       "type": "string"
     },
-     "description": {
-      "description": "The description of a valuation",
+    "customeremail": {
+      "description": "Email address of a customer.",
       "type": "string"
     },
-    "imagepath": {
-      "description": "The path for the images of a valuation",
+     "valuationprice": {
+      "description": "The valuated price of an item.",
+      "type": "double"
+    },
+     "valuationreason": {
+      "description": "The description of why the item is valuated to the valueted price",
+      "type": "string"
+    },
+     "status": {
+      "description": "The status of the valuation",
       "type": "string"
     }
   }
