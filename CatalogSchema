@@ -1,1 +1,49 @@
-
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/catalog.schema.json",
+  "title": "Catalog",
+  "description": "A catalog which contains items.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for an item in the catalog",
+      "type": "string"
+    },
+    "sellerid": {
+      "description": "The unique identifier for a seller of an item in the catalog",
+      "type": "string"
+    },
+    "itemname": {
+      "description": "The name of an item in the catalog.",
+      "type": "string"
+    },
+     "description": {
+      "description": "The description of an item in the catalog.",
+      "type": "string"
+    },
+     "category": {
+      "description": "Categories in the catalog which contains specific items",
+      "type": "string"
+    },
+     "valuation": {
+      "description": "A valuation for an item in our system for our auctionhouse",
+      "type": "string"
+    },
+     "startingbid": {
+      "description": "The starting price of an item",
+      "type": "double"
+    },
+     "buyoutprice": {
+      "description": "The buyout price of an item",
+      "type": "double"
+    },
+     "starttime": {
+      "description": "The starttime of an auction for an item",
+      "type": "datetime"
+    },
+     "endtime": {
+      "description": "The endtime of an auction for an item",
+      "type": "datetime"
+    }
+  }
+}
