@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/auctionbid.schema.json",
+  "title": "AuctionTrackerWorker",
+  "description": "An approved bid.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier of an approved bid",
+      "type": "string"
+    },
+    "catalogid": {
+      "description": "The unique identifier for an item in the catalog",
+      "type": "string"
+    },
+    "buyeremail": {
+      "description": "Email address of a buyer.",
+      "type": "string"
+    },
+     "bidvalue": {
+      "description": "The value of an approved bid.",
+      "type": "double"
+    },
+     "logtime": {
+      "description": "The time when an approved bid was received",
+      "type": "datetime"
+    }
+  }
+}
