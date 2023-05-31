@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.com/valuation.schema.json",
   "title": "Valuation",
-  "description": "A valueation for an item in our system for our auctionhouse.",
+  "description": "A valuation for an item in our system for our auctionhouse.",
   "type": "object",
   "properties": {
     "id": {
