@@ -22,7 +22,7 @@
       "type": "double"
     },
      "logtime": {
-      "description": "The time when an approved bid was received",
+      "description": "The time when an approved bid is logged",
       "type": "datetime"
     }
   }
