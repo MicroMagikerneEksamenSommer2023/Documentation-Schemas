@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.com/auth.schema.json",
   "title": "Auth",
-  "description": "A service which is used to authorize logininformation",
+  "description": "A service which is used to authenticate logininformation",
   "type": "object",
   "properties": {
     "email": {
